@@ -20,6 +20,18 @@ public final class MathUtil {
 		return value < min ? min : value > max ? max : value;
 	}
 
+	public static char clamp(final char value, final char min, final char max) {
+		return value < min ? min : value > max ? max : value;
+	}
+
+	public static short clamp(final short value, final short min, final short max) {
+		return value < min ? min : value > max ? max : value;
+	}
+
+	public static byte clamp(final byte value, final byte min, final byte max) {
+		return value < min ? min : value > max ? max : value;
+	}
+
 	public static <T extends Comparable<T>> Comparable<T> clamp(final T value, final T min, final T max) {
 		if (value.compareTo(min) < 0)
 			return min;

@@ -27,17 +27,6 @@ public class PasswordStorage {
 		}
 	}
 
-	@SuppressWarnings("serial")
-	static public class CannotPerformOperationException extends Exception {
-		public CannotPerformOperationException(final String message) {
-			super(message);
-		}
-
-		public CannotPerformOperationException(final String message, final Throwable source) {
-			super(message, source);
-		}
-	}
-
 	public static final String PBKDF2_ALGORITHM = "PBKDF2WithHmacSHA1";
 
 	// These constants may be changed without breaking existing hashes.
