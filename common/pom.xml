@@ -23,6 +23,12 @@
 		</repository>
 	</repositories>
 
+	<scm>
+		<connection>scm:git:git://github.com/blutorange/common-java.git</connection>
+		<developerConnection>scm:git:ssh://github.com:blutorange/common-java.git</developerConnection>
+		<url>https://github.com/blutorange/common-java/tree/master</url>
+	</scm>
+
 	<properties>
 		<maven-compiler-plugin-version>3.5.1</maven-compiler-plugin-version>
 		<nexus-staging-version>1.6.8</nexus-staging-version>
